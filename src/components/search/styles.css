@@ -1,0 +1,14 @@
+.searchContainer {
+  padding: 1rem 0.5rem;
+  background-color: var(--layer1);
+  width: 100%;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  min-width: 94%;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  background: var(--black);
+  color: var(--font-color-primary);
+}

@@ -1,0 +1,39 @@
+.userCard {
+  display: flex;
+  align-items: center;
+  background-color: var(--layer2);
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 54px 55px,
+    rgba(255, 255, 255, 0.04) 0px -12px 30px,
+    rgba(255, 255, 255, 0.12) 0px 4px 6px,
+    rgba(142, 132, 132, 0.2) 0px 12px 13px,
+    rgba(255, 255, 255, 0.02) 0px -3px 5px;
+}
+
+.userProfile {
+  border-radius: 50%;
+}
+
+.userDetails {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--font-color-primary);
+}
+
+.fullName {
+  margin: 0;
+}
+
+.subText {
+  font-size: 12px;
+  margin-top: 0.25rem;
+}
+
+/* #2d2d30 	(45,45,48)
+	#252526 	(37,37,38) */

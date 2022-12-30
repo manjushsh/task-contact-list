@@ -1,0 +1,29 @@
+:root {
+  --black: rgba(00, 0, 0, 1);
+  --layer1: rgba(33, 33, 33, 1);
+  --layer2: rgba(48, 48, 48, 1);
+  --layer3: rgba(66, 66, 66, 1);
+  --font-color-primary: rgba(255, 255, 255, 0.9);
+
+  background: var(--black);
+}
+
+html,
+body {
+  margin: 0 !important;
+}
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.content-grp {
+  margin-top: 15rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
